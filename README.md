@@ -25,7 +25,7 @@ just searching from (0,0) to (N-1 , M-1) and search NWES will work if we save th
 
 When checking there is a wall or not , I write every case with if-else statement , but I found in the internet when we use & operator , this can be easy and shorter.
 
- int Wall = 1;
+        int Wall = 1;
  
         for (int i = 0; i < 4; i++)
         {
